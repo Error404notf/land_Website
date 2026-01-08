@@ -185,8 +185,12 @@ img[src*="/phone_logo.jpg"]{
   height: 40px;
   background-color: none;
 }
-img[src*="/address icon.png"], img[src*="/clock.png"], img[src*="phone_icon.png"], img[src*="/email.png"]{
+img[src*="/address icon.png"], img[src*="/clock.png"], img[src*="phone_icon.png"], img[src*="/email.png"] {
   width: 17px;
   height: 17px;
   
+}
+img[src*="/4 star rating.png"]{
+  width: 25%;
+  height: 25%;
 }
