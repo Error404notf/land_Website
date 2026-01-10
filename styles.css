@@ -3,15 +3,22 @@
   font-family: sans-serif;
   margin: 0;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
 .navigation {
   padding: 50px;
   background-color: #12273d;
   width: 100%;
+ 
   margin-bottom: 40px;
 }
 .nav-links{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   color: white;
 }
@@ -193,4 +200,26 @@ img[src*="/address icon.png"], img[src*="/clock.png"], img[src*="phone_icon.png"
 img[src*="/4 star rating.png"]{
   width: 25%;
   height: 25%;
+}
+@media all and (max-width: 768px){
+  .nav-links{
+    flex-direction: column;
+    align-items: center;
+    overflow: none;
+  }
+  .float {
+    width: 100%;
+    margin: 0px;
+    /* text-align: center; */
+    padding: 6px;
+  }
+  .float img{
+    width: 100%;
+  }
+  
+}
+@media all and (max-width: 400px){
+  li:nth-child(1){
+    font-size: 25px;
+  }
 }
