@@ -223,3 +223,35 @@ img[src*="/4 star rating.png"]{
     font-size: 25px;
   }
 }
+@media all and  (min-width: 769px) and (max-width: 1200px){
+    .float {
+      width: 100%;
+      margin: 5px;
+      height: 450px;
+      text-align: center;
+      
+    }
+    .float p {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+   
+}
+@media all and (max-width: 576px){
+  button{
+  border: 2px solid white;
+  border-radius: 5%;
+  color: white;
+  background-color: #12273d;
+  padding: 10px 25px ;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+  }
+  .consult {
+    padding : 25px 10px;
+}
+.float_footer {
+  height: 700px
+}
+}
